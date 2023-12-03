@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<sdf version="1.8">
+    <world name="my_world">
+        <include>
+            <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun</uri>
+        </include>
+        <include>
+            <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Ground Plane</uri>
+        </include>
+        <include>
+            <uri>
+                file:///home/timux/autonomous-bot/ros2_ws/src/raido-bot_description/urdf/raido-bot.urdf</uri>
+        </include>
+    </world>
+</sdf>
